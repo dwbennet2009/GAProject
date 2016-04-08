@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GAProject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GAProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lGL -lGLU" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GAProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="-lGL -lGLU -lglut -lBox2D" />
+			<Add library="glui/libglui.a" />
+		</Linker>
+		<Unit filename="Gene.h" />
+		<Unit filename="Generation.h" />
+		<Unit filename="HelloWorld.cpp" />
+		<Unit filename="Pulleys.h" />
+		<Unit filename="Render.cpp" />
+		<Unit filename="Render.h" />
+		<Unit filename="SegmentHex.h" />
+		<Unit filename="Settings.h" />
+		<Unit filename="Test.cpp" />
+		<Unit filename="Test.h" />
+		<Unit filename="WalkerGAs.h" />
+		<Unit filename="WalkerOrganism.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

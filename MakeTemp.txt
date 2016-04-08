@@ -1,0 +1,2 @@
+g++ HelloWorld.cpp -o HelloWorld -lGL -lGLU -lglut -lBox2D
+
